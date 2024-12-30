@@ -17,7 +17,7 @@ async function connectToDb(url) {
 }
 
 connectToDb(
-  "mongodb+srv://subhranil234:Patricks123@cluster0.kt6qf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+  "mongodb+srv://subhranil234:<password>@cluster0.kt6qf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 );
 
 app.set("view engine", "ejs");
